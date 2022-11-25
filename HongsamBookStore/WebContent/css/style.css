@@ -1,0 +1,193 @@
+@charset "ISO-8859-1";
+
+#headermenu {
+	display: table;
+}
+
+#headermenu div {
+	display: table-cell;
+	padding-right: 20px;
+}
+
+a:link {
+	color: #6495ED;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #4B0082;
+}
+
+a:hover {
+	color: #FF0000;
+	text-decoration: underline;
+}
+
+#headermenu a:link {
+	font-size: larger;
+}
+
+.pageheading {
+	color: #00008B;
+}
+
+table {
+	border: 1px solid #000000;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 8px;
+}
+
+th {
+	background-color: #00008B;
+	color: #FFF8DC;
+	font-size: large;
+}
+
+table.form {
+	border: 0;
+	padding: 4px;
+}
+
+button {
+	padding: 6px;
+	border-radius: 5px;
+}
+
+button[type=sbmit] {
+	font-weight: bold;
+}
+
+button:hover {
+	background-color: #FFFFFF;
+	color:
+}
+
+input {
+	border: 1px solid;
+	boder-radius: 4px;
+	border-color: #00FF00;
+	height: 20px;
+}
+
+.message {
+	font-style: italic;
+}
+
+.error {
+	color: #FF0000;
+	font-style: italic;
+	margin: 5px;
+}
+
+.center {
+	text-align: center;
+}
+
+.book {
+	display: inline-block;
+	margin: 20px;
+	text-align: center;
+}
+
+table.book {
+	width: 80%;
+	border: none;
+	margin: 0 auto;
+}
+
+.book_group {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.next_row {
+	clear: both;
+}
+
+.book_listnew {
+	display: inline-block;
+	margin: 20px;
+	border: none;
+	text-align: center;
+	width: 20%;
+}
+
+.book-small {
+	width: 128px;
+	height: 164px;
+}
+
+.book-small_detail {
+	width: 240px;
+	height: 360px;
+}
+
+#book-title {
+	font-size: x-large;
+	font-weight: bold;
+}
+
+#author {
+	font-size: large;
+	font-style: italic;
+}
+
+#description {
+	text-align: justify;
+	vertical-align: top;
+}
+
+#search_img {
+	display: inline-block;
+	margin: 20px;
+	width: 10%;
+	text-align: left;
+}
+
+#search_info {
+	display: inline-block;
+	margin: 20px;
+	vertical-align: top;
+	width: 60%;
+	text-align: left;
+}
+
+#search_price {
+	display: inline-block;
+	margin: 20px;
+	vertical-align: top;
+}	
+
+.width_title {
+	text-align: center;
+	margin: 10px auto;
+}
+
+.price_detail {
+	valign:top;
+	 rowspan: 2;
+	  width: 20%;
+}
+
+.width_img {
+	height:60%;
+	margin: auto;
+}
+
+div table.book_none {
+	border: none;
+}
+
+div.forEach {
+	display: inline-block;
+}
+
+
+#book_title {
+	font-size: x-large;
+	font-weight: bold;
+}
